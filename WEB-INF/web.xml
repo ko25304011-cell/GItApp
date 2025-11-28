@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <!-- サーブレットの登録 -->
+     <servlet>
+        <servlet-name>SubmitServlet</servlet-name>
+        <jsp-file>/gitinput.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SubmitServlet</servlet-name>
+        <url-pattern>/gitinput</url-pattern>
+    </servlet-mapping>
+
+
+
+    </servlet-mapping>
