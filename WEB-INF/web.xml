@@ -2,15 +2,12 @@
 <web-app>
     <!-- サーブレットの登録 -->
      <servlet>
-        <servlet-name>SubmitServlet</servlet-name>
-        <jsp-file>/gitinput.jsp</jsp-file>
+        <servlet-name>submitservlet</servlet-name>
+        <servlet-class>/GitInputServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>SubmitServlet</servlet-name>
-        <url-pattern>/gitinput</url-pattern>
+        <servlet-name>submitservlet</servlet-name>
+        <url-pattern>/GitInputServlet</url-pattern>
     </servlet-mapping>
-
-
-
-    </servlet-mapping>
+</web-app> 
